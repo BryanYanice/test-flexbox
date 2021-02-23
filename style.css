@@ -23,5 +23,44 @@ header {
     text-align: center;
     font-size: 22px;
     background-color: #17BEBB;
+    color: #fff;
     
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+nav {
+    background-color: #EF3E36;
+}
+
+.list-sidenav {
+    list-style-type: none;
+    max-height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li a {
+    font-size: 18px;
+    color: #f1f1f1;
+}
+
+aside {
+    padding: 22px;
+    background-color: #edb88b;
+    font-size: 22px;
+    color: #333;
 }
